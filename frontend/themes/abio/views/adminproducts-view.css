@@ -1,0 +1,44 @@
+.adminproducts-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.adminproducts-view vaadin-split-layout {
+  width: 100%;
+  height: 100%;
+}
+
+.adminproducts-view vaadin-grid {
+  height: 100%;
+}
+
+.adminproducts-view .editor-layout {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.adminproducts-view .editor {
+  flex-grow: 1;
+  padding: var(--lumo-space-l);
+}
+
+.adminproducts-view .editor vaadin-checkbox {
+  padding-top: var(--lumo-space-m);
+}
+
+.adminproducts-view .button-layout {
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: var(--lumo-contrast-5pct);
+  padding-bottom: var(--lumo-space-s);
+  padding-top: var(--lumo-space-s);
+  padding-left: var(--lumo-space-l);
+  padding-right: var(--lumo-space-l);
+  gap: var(--lumo-space-m);
+}
+
+.adminproducts-view .grid-wrapper {
+  width: 100%;
+}

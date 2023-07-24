@@ -1,0 +1,11 @@
+@import url('./main-layout.css');
+@import url('./views/adminproducts-view.css');
+@import url('./views/adminorders-view.css');
+@import url('./views/admindelivery-regions-view.css');
+@import url('./views/adminpromo-codes-view.css');
+@import url('./views/blacklist-view.css');
+@import url('./views/category-view.css');
+@import url('./views/header-view.css');
+@import url('./views/video-view.css');
+@import url('./views/colors-view.css');
+@import url('./views/test-view.css');
